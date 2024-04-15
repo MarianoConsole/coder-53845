@@ -512,6 +512,7 @@ a:active {
     margin-top: 130px;
     padding: 20px;
     text-transform: uppercase;
+    text-align: center;
     border: 4px firebrick solid;
     border-radius: 3px;
 }
@@ -527,6 +528,7 @@ a:active {
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
+    margin-right: 20px;
 }
 .entrega div ul li{
     padding: 10px;
