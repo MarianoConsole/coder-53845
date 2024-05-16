@@ -1,2 +1,104 @@
-
-@media screen and (max-width:950px) {}
+@media screen and (max-width: 1100px) {
+    section.ofertas {
+      flex-direction: column;
+    }
+    
+  }
+  @media screen and (max-width: 500px){
+      section.ofertas div img{
+        height: 150px;
+        width: 150px;
+      }
+      section.ofertas h5{
+        font-size: 20px;
+      }
+      section.grid-galeria {
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+      }
+      .carousel-item img{
+        height: auto;
+        width: auto;
+      }
+      section.grid-compras{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+      section.video iframe{
+        display: none;
+      }
+     
+      
+    }
+    @media screen and (max-width: 600px){
+            }
+            section.hero{
+              height: 300px;
+              width: 100%;
+            }
+  
+      section.envios p{
+        font-size: 15px;
+      }
+      
+      .envios img{
+        display: none;
+      }
+      section.video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      section.video iframe{
+        height: 150px;
+        width: 150px;
+      }
+      section.video p{
+        font-size: 12px;
+      }
+  
+      footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      footer .sucursal iframe{
+        height: 150px;
+        width: 150px;
+      }
+      footer section h1{
+        font-size: 25px;
+      }
+    
+    @media screen and (max-width: 400px){
+  .grid-galeria{
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
+      )
+      ;
+  }
+    }
+    @media screen and (max-width:300px){
+      section.ofertas div img{
+        height: 70px;
+        width: 70px;
+      }
+    }
+    @media screen and (max-width:800px){
+      section.hero h1{
+        font-size: 25px;
+  
+    }
+    section.hero p{
+      font-size: 12px;
+    }
+  }
