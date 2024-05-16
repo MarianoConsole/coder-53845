@@ -580,10 +580,10 @@ footer section .redes img {
   }
   @media screen and (max-width: 600px){
           }
-          section.hero{
-            height: 300px;
+          /* section.hero{
+            height: auto;
             width: 100%;
-          }
+          } */
 
     section.envios p{
       font-size: 15px;
